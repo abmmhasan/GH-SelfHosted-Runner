@@ -1,0 +1,15 @@
+# No registration tokens or live runner configuration in Git
+runner-token
+*.token
+.env
+.env.*
+.runner
+.credentials*
+.path
+_work/
+_diag/
+.runner-state/
+*.tar.gz
+
+# Persistent, sensitive runner registrations and workspaces live here.
+/runners/

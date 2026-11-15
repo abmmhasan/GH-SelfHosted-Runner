@@ -1,0 +1,15 @@
+.git
+.github
+.env
+.env.*
+runner-token
+*.token
+*.tar.gz
+_work
+_diag
+.runner-state
+README.md
+tests
+
+# Never bake local registered runner credentials into Docker image.
+runners
